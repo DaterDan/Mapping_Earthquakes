@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 let cities = [{
+=======
+ // An array containing each city's location, state, and population.
+ let cities = [{
+>>>>>>> f07e83a9e97ad6af057d51f0d7c79786d236ab3a
     location: [40.7128, -74.0059],
     city: "New York City",
     state: "NY",
@@ -28,4 +33,15 @@ let cities = [{
     state: "AZ",
     population: 1660272
   }
+<<<<<<< HEAD
   ];
+=======
+  ];
+  
+  // Loop through the cities array and create one marker for each city.
+  cities.forEach(function(city) {
+      console.log(city)
+  L.marker(city.location).addTo(map);
+  });
+
+>>>>>>> f07e83a9e97ad6af057d51f0d7c79786d236ab3a
